@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery Practicals</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+  <style>
+    .box-1 {
+      background-color: aqua;
+      padding: 20px;
+    }
+
+    button {
+      margin-top: 20px;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+
+    #draggable {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      cursor: grab;
+      border: 1px solid #000;
+    }
+
+    #droppable {
+      width: 200px;
+      height: 200px;
+      background-color: lightgray;
+      text-align: center;
+      line-height: 200px;
+      margin-top: 20px;
+      border: 2px dashed #000;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Jquery Practicals!</h1>
+
+  <h1>1. Use show(), hide() & toggle() function</h1>
+  <div class="box-1">
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur ullam
+      eveniet dolor eos quos, expedita quis velit a ipsa? Nisi molestiae dicta
+      incidunt dolores, expedita optio adipisci nam architecto dolor?
+    </p>
+  </div>
+
+  <button id="show">Show</button>
+  <button id="hide">Hide</button>
+  <button id="toggle">Toggle</button>
+  <button id="slideup">Slide Up</button>
+  <button id="slidedown">Slide Down</button>
+
+  <h1>2. Drag and Drop Functionality</h1>
+  <div id="draggable">Drag me</div>
+  <div id="droppable">Drop here</div>
+
+  <h1>3. Image Slider using Jquery</h1>
+  <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg" alt="Image" id="image">
+  <button id="fadein">fadeIn</button>
+  <button id="fadeout">fadeOut</button>
+
+  <h1>4. AJAX Call with Jquery</h1>
+  <div id="data-container">Loading...</div>
+
+  <h1>5. Form Validation Using Jquery</h1>
+
+</body>
+
+</html>
